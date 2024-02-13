@@ -75,7 +75,7 @@
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <label for="">Autor/a:* </label>
-                                            <select name="author_id" class="form-control" multiple>
+                                            <select name="author_id" class="form-control">
                                                 @foreach ($autores_libros as $autor_libro)
                                                     @if ($autor_libro->book_id == $libro->id)
                                                         @foreach ($autores as $autor)
