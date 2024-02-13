@@ -51,12 +51,14 @@
                 <li class="nav-item d-none d-sm-inline-block">
                     <a href="{{ route('index') }}" class="nav-link">Sistema de Biblioteca </a>
                 </li>
+                {{-- 
                 <li class="nav-item d-none d-sm-inline-block">
                     <a href="#" class="nav-link">Contact</a>
-                </li>
+                </li> --}}
             </ul>
 
             <!-- Right navbar links -->
+            {{-- 
             <ul class="navbar-nav ml-auto">
                 <!-- Navbar Search -->
                 <li class="nav-item">
@@ -181,7 +183,7 @@
                         <i class="fas fa-th-large"></i>
                     </a>
                 </li>
-            </ul>
+            </ul>--}}
         </nav>
         <!-- /.navbar -->
 
@@ -368,64 +370,12 @@
                                 </p>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link ">
-                                <i class="nav-icon bi bi-person-circle"></i>
-                                <p>
-                                    Lectores/as
-                                    <i class="right fas fa-angle-left"></i>
-                                </p>
-                            </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link active">
-                                        <i class="nav-icon bi bi-card-list"></i>
-                                        <p>Listar Todos/as</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        <i class="nav-icon bi bi-person-plus-fill"></i>
-                                        <p>Registrar Nuevo/a</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link ">
-                                <i class="nav-icon bi bi-person-vcard-fill"></i>
-                                <p>
-                                    Puestos
-                                    <i class="right fas fa-angle-left"></i>
-                                </p>
-                            </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link active">
-                                        <i class="nav-icon bi bi-card-list"></i>
-                                        <p>Listar Todos</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        <i class="nav-icon bi bi-person-plus"></i>
-                                        <p>Registrar Nuevo</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
+                        
+                        
 
 
 
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon bi bi-link-45deg"></i>
-                                <p>
-                                    Simple Link
-                                    <span class="right badge badge-danger">New</span>
-                                </p>
-                            </a>
-                        </li>
+                        
                         <li class="nav-item btn-danger">
                             <a href="{{ route('logout') }}"
                                 onclick="event.preventDefault();document.getElementById('logout-form').submit();"
