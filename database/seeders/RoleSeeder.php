@@ -30,7 +30,7 @@ class RoleSeeder extends Seeder
         Permission::create(['name' => 'authors'])->syncRoles([$admin,$librarian]);
         Permission::create(['name' => 'editorials'])->syncRoles([$admin,$librarian]);
         Permission::create(['name' => 'subjects'])->syncRoles([$admin,$librarian]);
-        Permission::create(['name' => 'books'])->syncRoles([$admin,$librarian,$reader]);
+        Permission::create(['name' => 'books'])->syncRoles([$admin,$librarian]);
         Permission::create(['name' => 'users'])->syncRoles([$admin,$librarian]);
 
         User::find(1)->assignRole($admin);
